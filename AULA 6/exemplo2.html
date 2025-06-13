@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+table, th, td
+{
+border: 3px solid black  ;
+border-collapse: collapse;
+padding: 10px;
+font-size: larger;
+}
+th
+{
+background-color: yellow;
+color: red;
+}
+h1
+{
+    color: blue;
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+<h1>Exemplo 2</h1>
+<h2>Estudo de tabela com linha e colunas mescladas, utilizando
+    o rowspan e o colspan, respectivamente.
+</h2>
+
+
+    <table>
+<tr>
+   <th colspan="4">Exemplo 2</th> 
+</tr>
+        <tr>
+<th>coluna 1</th>
+<th>coluna 2</th>
+<th>coluna 3</th>
+<th>coluna 4</th>
+</tr>
+<tr>
+<td>valor 1</td>
+<td>valor 2</td>
+<td>valor 3</td>
+<td>valor 4</td>
+</tr>
+<tr>
+<td colspan="2"> valor 1</td>
+<td>valor 2</td>
+<td>valor 3</td>
+</tr>
+<tr>
+<td>valor 1</td>
+<td colspan="2">valor 2</td>
+<td>valor 3</td>
+</tr>
+<tr>
+<td>valor 1</td>
+<td>valor 2</td>
+<td colspan="2">valor 3</td>
+</tr>
+<tr>
+<td>valor 1</td>
+<td colspan="3">valor 2</td>
+</tr>
+<tr><td rowspan="2">valor 1</td>
+<td>valor 2</td>
+<td>valor 3</td>
+<td>valor 4</td>
+</tr>
+<tr>
+<td>valor 2</td>
+<td rowspan="2">valor 3</td>
+<td>valor 4</td>
+</tr>
+<tr>
+<td>valor 1</td>
+<td>valor 2</td>
+<td>valor 4</td>
+</tr>
+
+
+
+
+
+</table>    
+
+</body>
+</html>
